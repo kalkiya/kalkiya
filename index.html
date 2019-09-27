@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h2 style="text-align:center">Slideshow </h2>
+<div class="zoomImage" id="zoomImage">
+   <img  id="imageShow" src="assets/image1.jpg" style="width:100%;">
+</div>
+<div class="container">
+  <div class="mySlides">
+    <img src="../assets/image1.jpg" onclick="zoomImage(1)">
+  </div>
+
+  <div class="mySlides">
+        <img src="../assets/image2.jpg" onclick="zoomImage(2)">
+  </div>
+
+  <div class="mySlides">
+    <img src="../assets/image3.jpg" onclick="zoomImage(3)">
+  </div>
+    
+  <div class="mySlides">
+    <img src="../assets/image4.jpg" onclick="zoomImage(4)">
+  </div>
+
+  <div class="mySlides">
+    <img src="../assets/image5.jpg" onclick="zoomImage(5)">
+  </div>
+ <div class="mySlides">
+    <img src="../assets/image6.jpg" onclick="zoomImage(6)">
+  </div>
+  <div class="mySlides">
+    <img src="../assets/image7.jpg" onclick="zoomImage(7)">
+  </div>
+  <div class="mySlides">
+    <img src="../assets/image8.jpg" onclick="zoomImage(8)">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../assets/image1.jpg" style="width:100% " onclick="currentSlide(1)" alt="Nature and Image1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../assets/image2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Nature and Image2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../assets/image3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Nature and Image3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../assets/image4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Nature and Image4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../assets/image5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and Image5">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="../assets/image6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nature and Image5">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="../assets/image7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Nature and Image5">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="../assets/image8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Nature and Image5">
+    </div>    
+  </div>
+</div> 
+<script src="slide.js"></script>
+</body>
+</html>
